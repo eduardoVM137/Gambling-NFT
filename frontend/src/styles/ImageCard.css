@@ -1,0 +1,73 @@
+.image-card {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #f9f9f9;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.image-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.image-card p {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+.image-card span {
+    font-weight: bold;
+    font-size: 12px;
+    color: #555;
+}
+
+.image-card.animate-common {
+    border-color: #bfbfbf;
+    animation: reveal 0.5s forwards;
+}
+
+.image-card.animate-uncommon {
+    border-color: #4caf50;
+    animation: reveal 0.5s forwards, glow 1s infinite alternate;
+}
+
+.image-card.animate-rare {
+    border-color: #2196f3;
+    animation: reveal 0.5s forwards, glow 1s infinite alternate;
+}
+
+.image-card.animate-epic {
+    border-color: #9c27b0;
+    animation: reveal 0.5s forwards, glow 1s infinite alternate;
+}
+
+.image-card.animate-legendary {
+    border-color: #ff9800;
+    animation: reveal 0.5s forwards, glow 1s infinite alternate;
+}
+
+/* Animations */
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #fff;
+    }
+    to {
+        box-shadow: 0 0 20px #fff;
+    }
+}
