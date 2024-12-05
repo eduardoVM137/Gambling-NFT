@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.image-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #f9f9f9;
+}
+
+.image-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.image-card.common {
+    border-color: #bfbfbf;
+}
+
+.image-card.uncommon {
+    border-color: #4caf50;
+}
+
+image-card.rare {
+    border-color: #2196f3;
+}
+
+.image-card.epic {
+    border-color: #9c27b0;
+}
+
+.image-card.legendary {
+    border-color: #ff9800;
+}
