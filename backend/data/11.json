@@ -1,0 +1,11 @@
+{
+  "name": "Carta Legendaria #1",
+  "description": "La carta legendaria definitiva, muy difícil de encontrar, máxima rareza.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Legendaria_1.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    }
+  ]
+}

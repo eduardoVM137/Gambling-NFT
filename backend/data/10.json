@@ -1,0 +1,11 @@
+{
+  "name": "Carta Épica #3",
+  "description": "Una carta épica excepcional, de las más valiosas en su categoría.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_3.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    }
+  ]
+}

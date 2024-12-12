@@ -1,0 +1,11 @@
+{
+  "name": "Carta Épica #2",
+  "description": "Otra carta épica, muy codiciada por coleccionistas.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_2.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    }
+  ]
+}

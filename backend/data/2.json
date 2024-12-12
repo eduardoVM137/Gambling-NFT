@@ -1,0 +1,11 @@
+{
+  "name": "Carta Común #3",
+  "description": "Una tercera carta común de la colección.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Comun_3.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    }
+  ]
+}

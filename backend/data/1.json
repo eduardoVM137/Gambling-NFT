@@ -1,0 +1,11 @@
+{
+  "name": "Carta Común #2",
+  "description": "Otra carta común de la colección.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Comun_2.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Carta Rara #1",
+  "description": "Una carta rara con atributos especiales.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_1.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    }
+  ]
+}

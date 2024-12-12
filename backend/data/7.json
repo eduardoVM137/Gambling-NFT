@@ -1,0 +1,11 @@
+{
+  "name": "Carta Rara #3",
+  "description": "Una carta rara especial, parte de la élite de la colección.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_3.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    }
+  ]
+}

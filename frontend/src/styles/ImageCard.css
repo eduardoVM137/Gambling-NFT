@@ -1,73 +1,105 @@
 .image-card {
-    border: 2px solid #ccc;
+    background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
-    width: 150px;
-    background-color: #f9f9f9;
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+}
+
+.image-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .image-card img {
-    max-width: 100%;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
 }
 
-.image-card p {
-    margin: 10px 0 5px;
-    font-size: 14px;
-}
-
-.image-card span {
+.image-name {
+    font-size: 1.1em;
     font-weight: bold;
+    color: #333;
+}
+
+.rarity-tag {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.rarity-common {
+    background-color: #b0bec5;
+    color: #fff;
+}
+
+.rarity-uncommon {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.rarity-rare {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.rarity-epic {
+    background-color: #9c27b0;
+    color: #fff;
+}
+
+.rarity-legendary {
+    background-color: #f57c00;
+    color: #fff;
+}
+
+.auction-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.auction-button:hover {
+    background-color: #0056b3;
+}
+/* Botón de subasta */
+.auction-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.auction-button:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustes para la rareza */
+.rarity {
     font-size: 12px;
-    color: #555;
-}
-
-.image-card.animate-common {
-    border-color: #bfbfbf;
-    animation: reveal 0.5s forwards;
-}
-
-.image-card.animate-uncommon {
-    border-color: #4caf50;
-    animation: reveal 0.5s forwards, glow 1s infinite alternate;
-}
-
-.image-card.animate-rare {
-    border-color: #2196f3;
-    animation: reveal 0.5s forwards, glow 1s infinite alternate;
-}
-
-.image-card.animate-epic {
-    border-color: #9c27b0;
-    animation: reveal 0.5s forwards, glow 1s infinite alternate;
-}
-
-.image-card.animate-legendary {
-    border-color: #ff9800;
-    animation: reveal 0.5s forwards, glow 1s infinite alternate;
-}
-
-/* Animations */
-@keyframes reveal {
-    from {
-        opacity: 0;
-        transform: scale(0.5);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes glow {
-    from {
-        box-shadow: 0 0 10px #fff;
-    }
-    to {
-        box-shadow: 0 0 20px #fff;
-    }
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+    text-transform: uppercase;
 }

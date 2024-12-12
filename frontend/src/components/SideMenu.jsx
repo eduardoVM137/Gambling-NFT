@@ -6,10 +6,10 @@ const SideMenu = ({ onSelect }) => {
         <div className="side-menu">
             <h2>Menu</h2>
             <ul>
-    <li onClick={() => onSelect("pack")}>Open Packs</li>
+    <li onClick={() => onSelect("buypacks")}>Jugar Waifu-Gacha</li>
     <li onClick={() => onSelect("coleccion")}>Coleccion</li>
-    <li onClick={() => onSelect("sell")}>Sell Cards</li>
-    <li onClick={() => onSelect("marketplace")}>Marketplace</li>
+    <li onClick={() => onSelect("subastas")}>Subastas</li>
+    <li onClick={() => onSelect("donation")}>Donaciones</li> 
 </ul>
 
         </div>

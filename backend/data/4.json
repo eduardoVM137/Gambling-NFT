@@ -1,0 +1,11 @@
+{
+  "name": "Carta No Común #2",
+  "description": "Otra carta no común, con mayor valor coleccionable.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/NoComun_2.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    }
+  ]
+}

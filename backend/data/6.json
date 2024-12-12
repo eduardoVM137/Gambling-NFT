@@ -1,0 +1,11 @@
+{
+  "name": "Carta Rara #2",
+  "description": "Otra carta rara, todavía más difícil de obtener.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_2.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    }
+  ]
+}

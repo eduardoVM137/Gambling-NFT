@@ -64,7 +64,20 @@ image-card.rare {
     opacity: 0;
 }
 
-
+/* Contenedor general de la aplicación */
+.app-container {
+    display: flex;
+    height: 100vh; /* Toma toda la altura de la pantalla */
+    overflow: hidden;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #f4f4f9;
+    padding: 20px;
+    overflow-y: auto; /* Habilitar el scroll en caso de que el contenido crezca */
+  }
+  
 .image-grid.finalizing {
     opacity: 0;
     transform: scale(0.8);

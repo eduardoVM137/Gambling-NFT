@@ -1,0 +1,55 @@
+/* Coleccion Styles */
+.collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 200px; /* Espacio para evitar superposición con el menú */
+    gap: 20px;
+}
+
+.nft-card {
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nft-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nft-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.nft-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Rareza (usando clases específicas) */
+.nft-card.common {
+    border: 3px solid #ccc;
+}
+
+.nft-card.uncommon {
+    border: 3px solid #2ecc71;
+}
+
+.nft-card.rare {
+    border: 3px solid #3498db;
+}
+
+.nft-card.epic {
+    border: 3px solid #9b59b6;
+}
+
+.nft-card.legendary {
+    border: 3px solid #f39c12;
+}

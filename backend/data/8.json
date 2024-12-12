@@ -1,0 +1,11 @@
+{
+  "name": "Carta Épica #1",
+  "description": "Una carta épica, de gran poder y prestigio.",
+  "image": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_1.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    }
+  ]
+}

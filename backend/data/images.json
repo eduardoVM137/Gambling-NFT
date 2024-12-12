@@ -1,8 +1,76 @@
+ 
 [
-    { "id": 0, "name": "Common Image 0", "rarity": "common", "url": "https://th.bing.com/th/id/R.fc2cffc5a2d5e2d16315422970e75956?rik=dhX901Qx2kiczg&pid=ImgRaw&r=0" },
-    { "id": 1, "name": "Common Image 1", "rarity": "common", "url": "https://th.bing.com/th/id/OIP.6_s65l7M3f0RxXWan5d6cwHaKV?rs=1&pid=ImgDetMain" },
-    { "id": 2, "name": "Uncommon Image 1", "rarity": "uncommon", "url": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-172-vaporeon_v.jpg" },
-    { "id": 3, "name": "Rare Image 1", "rarity": "rare", "url": "https://th.bing.com/th/id/OIP.-9uJQHPdHxKnCsCvePoVxwHaKT?rs=1&pid=ImgDetMain" },
-    { "id": 4, "name": "Epic Image 1", "rarity": "epic", "url": "https://http2.mlstatic.com/carta-pokemon-tauros-gx-100149-sol-e-lua-D_NQ_NP_785108-MLB29491667694_022019-F.jpg" },
-    { "id": 5, "name": "Legendary Image 1", "rarity": "legendary", "url": "https://http2.mlstatic.com/carta-pokemon-charizard-ex-full-art-promo-geracoes-xy121-D_NQ_NP_337221-MLB20742950115_052016-F.jpg" }
-]
+    {
+      "id": 0,
+      "name": "Common Image 1",
+      "rarity": "common",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Comun_1.jpeg"
+    },
+    {
+      "id": 1,
+      "name": "Common Image 2",
+      "rarity": "common",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Comun_2.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Common Image 3",
+      "rarity": "common",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Comun_3.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Uncommon Image 1",
+      "rarity": "uncommon",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/NoComun_1.png"
+    },
+    {
+      "id": 4,
+      "name": "Uncommon Image 2",
+      "rarity": "uncommon",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/NoComun_2.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Rare Image 1",
+      "rarity": "rare",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_1.png"
+    },
+    {
+      "id": 6,
+      "name": "Rare Image 2",
+      "rarity": "rare",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_2.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Rare Image 3",
+      "rarity": "rare",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Rara_3.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Epic Image 1",
+      "rarity": "epic",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_1.png"
+    },
+    {
+      "id": 9,
+      "name": "Epic Image 2",
+      "rarity": "epic",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_2.png"
+    },
+    {
+      "id": 10,
+      "name": "Epic Image 3",
+      "rarity": "epic",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Epica_3.png"
+    },
+    {
+      "id": 11,
+      "name": "Legendary Image 1",
+      "rarity": "legendary",
+      "url": "ipfs://bafybeig72hh5yjx6xvldtfkopnsynblerxawvysar2ghhr5qydqolyhlsu/Legendaria_1.jpeg"
+    }
+  ]
+  

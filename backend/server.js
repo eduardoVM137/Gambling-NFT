@@ -1,27 +1,27 @@
-const express = require("express");
-const cors = require("cors");
-const userRoutes = require("./routes/userRoutes.js");
-const salesRoutes = require("./routes/salesRoutes.js");
-const walletRoutes = require("./routes/walletRoutes.js");
-const nftRoutes = require("./routes/nftRoutes.js");
+// const express = require("express");
+// const cors = require("cors");
+// const userRoutes = require("./routes/userRoutes.js");
+// const salesRoutes = require("./routes/salesRoutes.js");
+// const walletRoutes = require("./routes/walletRoutes.js");
+// const nftRoutes = require("./routes/nftRoutes.js");
 
-const app = express();
-const PORT = 3000;
+// const app = express();
+// const PORT = 3000;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
+// // Middleware
+// app.use(cors());
+// app.use(express.json());
 
-// Rutas
-app.use("/api/users", userRoutes);
-app.use("/api/sales", salesRoutes);
-app.use("/api/wallet", walletRoutes);
-app.use("/api/nfts", nftRoutes);
+// // Rutas
+// app.use("/api/users", userRoutes);
+// app.use("/api/sales", salesRoutes);
+// app.use("/api/wallet", walletRoutes);
+// app.use("/api/nfts", nftRoutes);
 
-// Iniciar servidor
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+// // Iniciar servidor
+// app.listen(PORT, () => {
+//     console.log(`Server running on http://localhost:${PORT}`);
+// });
 
 //verrsion olf
 
@@ -90,3 +90,42 @@ app.listen(PORT, () => {
 
 
 
+const express = require("express");
+const cors = require("cors");
+const donationRoutes = require("./routes/donationRoutes.js");
+const factoryRoutes = require("./routes/factoryRoutes.js");
+const chanceRoutes = require("./routes/chanceRoutes.js");
+const auctionRoutes = require("./routes/auctionRoutes.js");
+
+const app = express();
+
+app.use(cors());
+
+// Middleware para procesar JSON solo en métodos específicos
+app.use((req, res, next) => {
+  if (["POST", "PUT", "PATCH"].includes(req.method)) {
+    express.json()(req, res, next);
+  } else {
+    next();
+  }
+});
+
+// Middleware de depuración
+app.use((req, res, next) => {
+  console.log(`Solicitud recibida: ${req.method} ${req.url}`);
+  console.log("Headers:", req.headers);
+  console.log("Body:", req.body);
+  next();
+});
+
+// Registrar rutas
+app.use("/donations", donationRoutes);
+app.use("/factory", factoryRoutes);
+app.use("/chance", chanceRoutes);
+app.use("/auction", auctionRoutes);
+
+// Iniciar el servidor
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
